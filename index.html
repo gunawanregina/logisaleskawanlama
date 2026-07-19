@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PT. Kawan Lama Solusi - Logisales Delivery System</title>
+    <link rel="icon" type="image/png" href="https://www.kawanlamagroup.com/storage/1027/Kawan-Lama-Solution-%28400x300%29.png">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
     <style>
         * {
@@ -51,11 +52,13 @@
             align-items: center;
             margin: 0 auto 30px;
             animation: pulse 2s ease-in-out infinite;
+            padding: 10px;
         }
 
-        .truck-icon::before {
-            content: "🚚";
-            font-size: 40px;
+        .truck-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
 
         .loading-content h1 {
@@ -127,7 +130,13 @@
             justify-content: center;
             align-items: center;
             margin: 0 auto 30px;
-            font-size: 35px;
+            padding: 10px;
+        }
+
+        .login-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
 
         .login-container h1 {
@@ -289,6 +298,14 @@
             align-items: center;
             color: white;
             font-size: 20px;
+            padding: 5px;
+            overflow: hidden;
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
 
         .logo-text h1 {
@@ -1095,7 +1112,9 @@
     <!-- Loading Screen -->
     <div class="loading-screen" id="loadingScreen">
         <div class="loading-content">
-            <div class="truck-icon"></div>
+            <div class="truck-icon">
+                <img src="https://www.kawanlamagroup.com/storage/1027/Kawan-Lama-Solution-%28400x300%29.png" alt="Kawan Lama Solusi">
+            </div>
             <h1>PT. Kawan Lama Solusi</h1>
             <p>LOGISALES DELIVERY SYSTEM</p>
             <div class="loading-bar">
@@ -1108,7 +1127,9 @@
     <!-- Login Screen -->
     <div class="login-screen" id="loginScreen">
         <div class="login-container">
-            <div class="login-icon">🔐</div>
+            <div class="login-icon">
+                <img src="https://www.kawanlamagroup.com/storage/1027/Kawan-Lama-Solution-%28400x300%29.png" alt="Kawan Lama Solusi">
+            </div>
             <h1>Admin Authentication</h1>
             <p class="login-subtitle">PT. KAWAN LAMA SOLUSI</p>
 
@@ -1142,7 +1163,9 @@
         <!-- Header -->
         <div class="header">
             <div class="header-left">
-                <div class="logo">🚚</div>
+                <div class="logo">
+                    <img src="https://www.kawanlamagroup.com/storage/1027/Kawan-Lama-Solution-%28400x300%29.png" alt="Kawan Lama Solusi">
+                </div>
                 <div class="logo-text">
                     <h1>PT. Kawan Lama Solusi</h1>
                     <p>LOGISALES DELIVERY SYSTEM</p>
