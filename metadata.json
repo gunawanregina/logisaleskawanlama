@@ -1,0 +1,6 @@
+{
+  "name": "Logisales Delivery System",
+  "description": "Dashboard monitoring dan pengelolaan pengiriman Logisales untuk PT. Kawan Lama Solusi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
